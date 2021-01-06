@@ -42,22 +42,22 @@ from tobrot import (
 from pyrogram import Client, filters
 from pyrogram.handlers import MessageHandler, CallbackQueryHandler
 
-from tobrot.plugins.new_join_fn import new_join_f, help_message_f
-from tobrot.plugins.incoming_message_fn import rename_tg_file, incoming_message_f, incoming_youtube_dl_f, incoming_purge_message_f, incoming_gdrive_message_f, g_yt_playlist, g_clonee
-from tobrot.plugins.rclone_size import check_size_g, g_clearme
-from tobrot.plugins.status_message_fn import (
+from tesbot.plugins.new_join_fn import new_join_f, help_message_f
+from tesbot.plugins.incoming_message_fn import rename_tg_file, incoming_message_f, incoming_youtube_dl_f, incoming_purge_message_f, incoming_gdrive_message_f, g_yt_playlist, g_clonee
+from tesbot.plugins.rclone_size import check_size_g, g_clearme
+from tesbot.plugins.status_message_fn import (
     status_message_f,
     cancel_message_f,
     exec_message_f,
     upload_document_f,
     upload_log_file
 )
-from tobrot.plugins.call_back_button_handler import button
-from tobrot.plugins.custom_thumbnail import (
+from tesbot.plugins.call_back_button_handler import button
+from tesbot.plugins.custom_thumbnail import (
     save_thumb_nail,
     clear_thumb_nail
 )
-from tobrot.helper_funcs.download import down_load_media_f
+from tesbot.helper_funcs.download import down_load_media_f
 
 
 if __name__ == "__main__" :
