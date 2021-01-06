@@ -15,8 +15,8 @@ import shutil
 import asyncio
 import subprocess
 import requests
-from tobrot.helper_funcs.upload_to_tg import upload_to_tg, upload_to_gdrive
-from tobrot import (
+from tesbot.helper_funcs.upload_to_tg import upload_to_tg, upload_to_gdrive
+from tesbot import (
     DOWNLOAD_LOCATION
 )
 
