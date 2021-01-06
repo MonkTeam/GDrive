@@ -11,11 +11,11 @@ logging.basicConfig(level=logging.DEBUG,
 LOGGER = logging.getLogger(__name__)
 
 from pyrogram.types import CallbackQuery
-from tobrot.helper_funcs.admin_check import AdminCheck
-from tobrot.helper_funcs.download_aria_p_n import aria_start
-from tobrot.helper_funcs.youtube_dl_button import youtube_dl_call_back
-from tobrot.plugins.status_message_fn import cancel_message_f
-from tobrot import (
+from tesbot.helper_funcs.admin_check import AdminCheck
+from tesbot.helper_funcs.download_aria_p_n import aria_start
+from tesbot.helper_funcs.youtube_dl_button import youtube_dl_call_back
+from tesbot.plugins.status_message_fn import cancel_message_f
+from tesbot import (
     MAX_MESSAGE_LENGTH,
     AUTH_CHANNEL
 )
