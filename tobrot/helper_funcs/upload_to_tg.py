@@ -24,13 +24,13 @@ import shutil
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from PIL import Image
-from tobrot.helper_funcs.display_progress import progress_for_pyrogram, humanbytes
-from tobrot.helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
-from tobrot.helper_funcs.split_large_files import split_large_files
-from tobrot.helper_funcs.copy_similar_file import copy_file
+from tesbot.helper_funcs.display_progress import progress_for_pyrogram, humanbytes
+from tesbot.helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
+from tesbot.helper_funcs.split_large_files import split_large_files
+from tesbot.helper_funcs.copy_similar_file import copy_file
 from requests.utils import requote_uri
 
-from tobrot import (
+from tesbot import (
     TG_MAX_FILE_SIZE,
     EDIT_SLEEP_TIME_OUT,
     DOWNLOAD_LOCATION,
