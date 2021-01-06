@@ -1,4 +1,7 @@
-# for support join here [TorrentLeech-Gdrive](https://telegram.dog/GBotStore)
+# [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/MonkTeam/Ss/tree/main)
+
+
+for support join here [TorrentLeech-Gdrive](https://telegram.dog/GBotStore)
 # working example group [Leech Here](https://telegram.dog/GBotStore)
 
 # Telegram Torrent Leecher 🔥🤖
