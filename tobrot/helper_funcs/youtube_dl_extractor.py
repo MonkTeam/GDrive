@@ -13,13 +13,13 @@ LOGGER = logging.getLogger(__name__)
 
 
 import asyncio
-from tobrot.helper_funcs.display_progress import humanbytes
+from tesbot.helper_funcs.display_progress import humanbytes
 import json
 import os
 import pyrogram.types as pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-from tobrot import (
+from tesbot import (
     DEF_THUMB_NAIL_VID_S
 )
 
