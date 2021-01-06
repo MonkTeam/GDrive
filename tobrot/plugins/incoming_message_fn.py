@@ -15,7 +15,7 @@ LOGGER = logging.getLogger(__name__)
 import os
 import requests
 
-from tobrot import (
+from tesbot import (
     DOWNLOAD_LOCATION
 )
 
@@ -23,16 +23,16 @@ from tobrot import (
 import time
 import aria2p
 import asyncio
-from tobrot.helper_funcs.extract_link_from_message import extract_link
-from tobrot.helper_funcs.download_aria_p_n import call_apropriate_function, call_apropriate_function_g, aria_start
-from tobrot.helper_funcs.download_from_link import request_download
-from tobrot.helper_funcs.display_progress import progress_for_pyrogram
-from tobrot.helper_funcs.youtube_dl_extractor import extract_youtube_dl_formats
-from tobrot.helper_funcs.admin_check import AdminCheck
-from tobrot.helper_funcs.ytplaylist import yt_playlist_downg
-from tobrot.helper_funcs.cloneHelper import CloneHelper
-from tobrot.helper_funcs.download import download_tg
-from tobrot.helper_funcs.upload_to_tg import upload_to_tg
+from tesbot.helper_funcs.extract_link_from_message import extract_link
+from tesbot.helper_funcs.download_aria_p_n import call_apropriate_function, call_apropriate_function_g, aria_start
+from tesbot.helper_funcs.download_from_link import request_download
+from tesbot.helper_funcs.display_progress import progress_for_pyrogram
+from tesbot.helper_funcs.youtube_dl_extractor import extract_youtube_dl_formats
+from tesbot.helper_funcs.admin_check import AdminCheck
+from tesbot.helper_funcs.ytplaylist import yt_playlist_downg
+from tesbot.helper_funcs.cloneHelper import CloneHelper
+from tesbot.helper_funcs.download import download_tg
+from tesbot.helper_funcs.upload_to_tg import upload_to_tg
 
 async def incoming_purge_message_f(client, message):
     """/purge command"""
