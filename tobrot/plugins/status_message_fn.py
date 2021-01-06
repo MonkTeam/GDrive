@@ -19,7 +19,7 @@ import traceback
 import shutil
 import io
 
-from tobrot import (
+from tesbot import (
     MAX_MESSAGE_LENGTH,
     AUTH_CHANNEL,
     BOT_START_TIME,
@@ -27,12 +27,12 @@ from tobrot import (
 )
 
 
-from tobrot.helper_funcs.admin_check import AdminCheck
-from tobrot.helper_funcs.download_aria_p_n import call_apropriate_function, aria_start
-from tobrot.helper_funcs.upload_to_tg import upload_to_tg
+from tesbot.helper_funcs.admin_check import AdminCheck
+from tesbot.helper_funcs.download_aria_p_n import call_apropriate_function, aria_start
+from tesbot.helper_funcs.upload_to_tg import upload_to_tg
 
 
-from tobrot.helper_funcs.display_progress import (
+from tesbot.helper_funcs.display_progress import (
     TimeFormatter,
     humanbytes
 )
