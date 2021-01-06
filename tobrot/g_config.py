@@ -1,4 +1,4 @@
-from tobrot.sample_config import Config
+from tesbot.sample_config import Config
 
 #Fill your all data, read readme for reference
 
