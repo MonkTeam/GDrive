@@ -14,7 +14,7 @@ LOGGER = logging.getLogger(__name__)
 import pyrogram
 
 
-from tobrot import (
+from tesbot import (
     AUTH_CHANNEL
 )
 
